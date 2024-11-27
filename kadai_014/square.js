@@ -1,4 +1,4 @@
-const num = (double) => {
-  console.log(double * double);
+const double = (num) => {
+  return num * num; 
 }
-num(10);
+console.log(double(10));
